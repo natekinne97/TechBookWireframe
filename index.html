@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		 <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+		<title>TechBook</title>
+		<link href="./index.css" rel="stylesheet" type="text/css" >
+	</head>
+	<body>
+		<nav>
+			<header class="opening-menu">TechBook</header>
+			
+		</nav>
+		<main>
+			<!-- 
+				Home/Login
+			 -->
+			<section class="entry" id="home-page">
+				<h2>Langing page/Login</h2>
+				<div class="landing-page">
+					<h3>Welcome to TechBook</h3>
+					<p>
+						TechBook is the social media forum
+						Where you can get answers to questions, start discussions,
+						get news, or even share your projects.
+					</p>
+				</div>
+				<form class="gen-form login-form">
+					<h3>Login</h3>
+					<fieldset>
+						<label for="username">Username:</label>
+						<input type="text" name="username"  required />
+						<label for="password">Password</label>
+						<input type="password" name="password" required />
+						<button>Login</button>
+					</fieldset>
+				</form>
+				<a>Forgot password</a>
+				<button>Sign up	</button>
+				<hr/>
+			</section>
+
+			<!-- homepage after login -->
+			<section class="entry" id="post-login-home">
+					<h2>Logged in Home page</h2>
+					<nav class="top-navbar">
+						<header><h2 id="menu-header">TechBook</h2></header>
+						<form id="menu-search">
+							<input type="text" name="search-bar"/>
+						</form>
+					</nav>
+					<nav class="side-bar">
+						<ul class="menu-items">
+							<li>Home</li>
+							<li>Notifications</li>
+							<li>Groups</li>
+							<li>Account</li>
+							<li>Logout</li>
+						</ul>
+					</nav>
+					<div class="posts">
+
+						<div class="post">
+							<div class="post-meta">
+								<p class="username">Phil Collins</p>
+								<p>12pm</p>
+							</div>
+							<p>What is the best way to make an AJAX call in JavaScript?</p>
+							<div class="rating">
+								<p>+</p>
+								<p>-</p>
+								<p>comments</p>
+							</div>
+						</div>
+
+						<div class="post">
+							<div class="post-meta">
+								<p class="username">Phil Collins</p>
+								<p>12pm</p>
+							</div>
+							<p>What is the best way to make an AJAX call in JavaScript?</p>
+							<div class="rating">
+								<p>+</p>
+								<p>-</p>
+								<p>comments</p>
+							</div>
+						</div>
+
+					</div>
+			</section>
+			<!-- Account -->
+			<section class="account">
+				<h2>Account</h2>
+
+				<h3>Full Name</h3>
+				<p>Phillip Collins</p>
+
+				<h3>About</h3>
+				<p>
+					A professional musician and singer. Most notably 
+					Genisis.
+				</p>
+
+				<h3>Occupation</h3>
+				<p>Singer</p>
+
+				<h3>Groups</h3>
+				<ul>
+					<li><a>JavaScript</a></li>
+					<li><a>React.js</a></li>
+				</ul>
+
+			</section>
+		</main>
+
+	</body>
+</html>
